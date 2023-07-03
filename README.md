@@ -1,4 +1,4 @@
-This project is an example of a new attribute implements in Symfony 6.3 - MapRequestPayload. In src/Controller/ManualController.php you can see how to do that manually, and in src/Controller/AutoController.php you can see how to do that using the new attribute.
+This project is an example of a new attribute implemented in Symfony 6.3 - MapRequestPayload. In src/Controller/ManualController.php you can see how to do that manually, and in src/Controller/AutoController.php you can see how to do that using the new attribute.
 
 To start the project clone this repository
 
@@ -8,7 +8,7 @@ $ git clone git@github.com:bpastukh/symfony-map-request-to-dto.git
 
 Install dependencies
 ```bash
-$ composer intall
+$ composer install
 ```
 
 Start a web-server, e.g. using symfony cli-tool
@@ -16,7 +16,7 @@ Start a web-server, e.g. using symfony cli-tool
 $ symfony server:start
 ```
 
-Run http query
+Run HTTP query
 ```bash
 $ curl --location --request POST 'https://127.0.0.1:8000/manual' \
 --header 'Content-Type: application/json' \
